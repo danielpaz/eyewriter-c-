@@ -115,8 +115,8 @@ void pongScene::draw(){
 
 void pongScene::reColor(){
     
-    rMod = ofRandom(0,255);
-    gMod = ofRandom(0,255);
-    bMod = ofRandom(0,255);
+    rMod = ofRandom(50,255);
+    gMod = ofRandom(50,255);
+    bMod = ofRandom(50,255);
 }
 

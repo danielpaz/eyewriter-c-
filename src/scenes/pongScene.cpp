@@ -18,7 +18,8 @@ void pongScene::setup(){
     ballSize = 50;
 	ballPoint.set(20,20);
 	
-	ballVelocity.set(ofRandom(-5,5), ofRandom(2,9));
+	//ballVelocity.set(ofRandom(-5,5), ofRandom(2,9));
+	ballVelocity.set(ofRandom(-5,5), ofRandom(-5,5));
 	
 	fasterButton.setup("FASTER", ofGetWidth()-220,10,100,100);
 	//fasterButton.setMaxCounter(1.0f);
